@@ -3,7 +3,7 @@ Aplikácia ImageComparatorApp je grafická aplikácia vyvinutá v Pythone s pou�
 
 ## Trieda ImageComparatorApp
 ### Inicializácia
-Metóda **__init__** inicializuje hlavnú aplikáciu a jej komponenty.
+Metóda **\__init__** inicializuje hlavnú aplikáciu a jej komponenty.
 
 ### Načítanie obrázkov
 Metódy load_image1 a load_image2 umožňujú používateľovi vybrať a načítať dva obrázky.
@@ -36,16 +36,16 @@ block_size
 * threshold: Prahová hodnota, ktorá určuje, ktoré body budú považované za vý-
 znamné. Znížením tejto hodnoty bude detekované väčšie množstvo bodov.
 
-** Resetovanie parametrov **
+**Resetovanie parametrov**
 Metóda reset_parameters obnoví pôvodné hodnoty parametrov pre detekciu.
 
-** Spustenie detekcie **
+**Spustenie detekcie**
 Metóda start_harris_corner_detection spúšťa detekciu Harrisových rohov v novom vlákne a zobrazuje priebeh operácie.
 
-** Detekcia Harrisových rohov **
+**Detekcia Harrisových rohov**
 Metóda harris_corner_detection vykonáva samotnú detekciu rohov a zobrazuje výsledok na canvas.
 
-** Pomocné metódy **
+**Pomocné metódy**
 Metódy detect_harris_corners, draw_corners, connect_regions, update_image_on_canvas, a show_image_on_canvas zabezpečujú detekciu rohov, ich zobrazenie a pripojenie jednotlivých bodov.
 
 ### Výpočet SSIM
